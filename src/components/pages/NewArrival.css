@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.dark{
+    background-color: black;
+    color: azure;
+    margin-top: 100px;
+}
+.width{
+    margin: 10px;
+    /* padding: 10px;; */
+    width:300px;
+    
+}
+.width img{
+    height: 250px;
+    cursor:pointer;
+
+}
+.card{
+    transition: all 0.4s;
+    
+}
+.card:hover{
+   transform: scale(1.05);
+   /* box-shadow: 10px 10px 5px whitesmoke; */
+   box-shadow: 0 4px 8px 0 rgba(243, 241, 241, 0.896), 0 6px 20px 0 rgba(248, 246, 246, 0.953);
+}

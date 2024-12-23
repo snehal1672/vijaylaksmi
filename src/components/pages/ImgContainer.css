@@ -1,0 +1,44 @@
+.imgcontainer{
+    /* border:1px solid black; */
+    height:700px;
+}
+.imgcontainer img{
+    width:40rem;
+    height:30rem;
+    border:1px solid black;
+    position:relative;
+    left:150px;
+    top:130px
+}
+.box{
+    width:30rem;
+    height:20rem;
+    color: azure;
+    border:1px solid black;
+    background-color: #171616;
+    position:relative;
+    left: 40rem;
+    bottom:17rem;
+}
+.boxtext{
+    margin:0 auto;
+    padding: 30px;
+    height: 250px;
+    width:390px;
+    text-align:center;
+    text-shadow: 1px 1px 4px #ffffff;
+    
+}
+button{
+    margin:0 auto;
+    color: #171616;
+    border: 1px solid #171616;
+    text-align:center;
+    background-color: azure;
+    text-shadow: 1px 1px 4px #171616;
+}
+.pdull{
+    text-shadow: none;
+    color: #fefefe6b;
+    font-size: small;
+}

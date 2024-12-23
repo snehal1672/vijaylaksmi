@@ -1,0 +1,45 @@
+.container{
+    /* border: 1px solid black; */
+    z-index: 1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin:0 auto;
+    height: 70px;
+    /* border:2px solid red; */
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    list-style-type: none;
+    color:var(--gray)
+}
+
+.logo{
+    width:120px;
+    height: 100px;
+    /* border:2px solid red; */
+    display: flex;
+    margin-right: 15%;
+    align-items: center;
+}
+.logo img{
+    width:100%;
+}
+button{
+    all:unset;
+    height:32px;
+    padding:6px 16px;
+    border-radius: 5px;
+    color: azure;
+    padding: 0 16px;
+}
+.buttons{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,46 @@
+.darkcontainer {
+    background-color: var(--gray);
+    color: azure;
+    margin-top: 6%;
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    line-height: 3;
+}
+
+.darkcontainertwo {
+    background-color: var(--gray);
+    color: azure;
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    line-height: 3;
+    font-size: small;
+    font-weight: 100;
+    letter-spacing: 1px;
+
+}
+
+hr {
+    /* all:unset; */
+    color: azure;
+    background-color: azure;
+    height: 5px;
+}
+
+ul {
+    all: unset;
+    list-style-type: none;
+    font-size: small;
+    font-weight: 300;
+}
+.logobunch{
+    /* border: 1px solid white; */
+    width:300px ;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 24px;
+    color: azure;
+}
